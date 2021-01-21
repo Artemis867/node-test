@@ -1,0 +1,21 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "testing node app for AWS elastic beanstalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "node-test"
+  ],
+  "author": "Artemis867",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
